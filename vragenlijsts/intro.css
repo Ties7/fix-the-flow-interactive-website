@@ -1,0 +1,51 @@
+body {
+    font-family: Figtree;
+    background-color: #111;
+    color: white;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+/* article */
+.intro article {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);  
+    text-align: center;
+    width: 18.625rem;
+}
+
+.intro-article {
+    position: relative;
+    top: 7em;
+    font-size: 1.25rem;
+    line-height: 140%;
+}
+
+.disclaimer-article {
+    position: absolute;
+    top: 28em;
+    font-size: 1rem;
+    line-height: 137%;
+}
+
+/* button */
+.links {
+    position: absolute;
+    left: 50%;
+    bottom: 2.5rem;
+    transform: translate(-50%);  
+    z-index: 1; 
+    width: max-content;
+}
+
+.arrow {
+    color: white;
+    outline: 1px solid #555555;
+
+    padding: 1rem 1rem;
+    border-radius: 9999rem;
+
+    cursor: pointer; 
+}

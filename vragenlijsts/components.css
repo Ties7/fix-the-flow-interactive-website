@@ -1,0 +1,17 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+@font-face {
+    font-family: 'Calvino Grande';
+    src: url(fonts/Calvino-Grande-Variable-trial.ttf);   
+}
+
+body {
+    font-family: Figtree;
+    background-color: #111;
+    color: white;
+
+    margin: 0;
+
+    overflow: hidden;
+}
