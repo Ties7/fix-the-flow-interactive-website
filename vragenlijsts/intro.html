@@ -7,43 +7,47 @@
 
     <link rel="stylesheet" href="components.css">
     <link rel="stylesheet" href="intro.css">
+    <script src="vraag1.js"></script>
 </head>
 <body>
-    <main>
+
+    <div class="head">
         <header>
             <h1>Vragenlijst</h1>
-            <img src="/assets/progressionbar.svg" alt="">
+            <a class="quit" href=""><img src="../assets/quit.svg" alt="afsluitenbutton"></a>
         </header>
-        
-        <section class="intro">
-            <article>
+        <img class="progressionbar" src="../assets/progressionbar1.svg" alt="progressionbar">
+    </div>
+
+    <main>
+        <section class="vraag1">
+            <aside>
                 <p class="intro-article">We stellen 12 vragen om een programma op maat voor je samen te stellen.</p>
-                <p class="disclaimer-article">*Mocht je een vraag niet prettig vinden om te beantwoorden dan kan je deze altijd overslaan.</p>
-            </article>
+                <p class="disclaimer-article">*Mocht je een vraag niet prettig vinden om te beantwoorden dan kan je deze altijd overslaan. </p>
+            </aside>
             <div class="links">
                 <a class="arrow" href="vraag1.html"><img src="../assets/arrowright.svg" alt="verderbutton"></a>
             </div>
-            <div class="mesh">
-                <img class="" src="" alt="">
-            </div>
-        </section>
-
-        <section class="vraag1">
-            
+            <img class="redmesh" src="../assets/redmesh.svg" alt="">
         </section>
 
         <section class="vraag2">
-            
-        </section>
-        <section class="vraag3">
-            
-        </section>
-        <section class="vraag4">
-            
-        </section>
-        <section class="vraag5">
-            
+            <aside>
+                <p class="vraag">In de laatste maanden, hoe zwaar voelt het verlies?</p>
+            </aside>
+            <div class="buttons">
+                <a href="vraag2.html"><button id="verpletterend">Verpletterend</button></a>
+                <a href="vraag2.html"><button id="drukkend">Drukkend</button></a>
+                <a href="vraag2.html"><button id="zwaar">Zwaar</button></a>
+                <a href="vraag2.html"><button id="draaglijk">Draaglijk</button></a>
+                <a href="vraag2.html"><button id="licht">Licht</button></a>
+            </div>
+            <div class="links">
+                <a class="terug" href="intro.html">Terug</a>
+                <a class="overslaan" href="vraag2.html">Overslaan</a>
+            </div>
         </section>
     </main>
+
 </body>
 </html>
