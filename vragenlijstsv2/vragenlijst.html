@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro</title>
+
+    <link rel="stylesheet" href="vragenlijst.css">
+    <script defer src="vragenlijst.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Vragenlijst</h1>
+            <a class="quit" href="#">
+                <img src="../assets/quit.svg" alt="afsluiten">
+            </a>
+        </header>
+
+        <div class="progress">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <main>
+            <section class="intro">
+                <p>We stellen 12 vragen om een programma op maat voor je samen te stellen.</p>
+                <p class="disclaimer">
+                    *Mocht je een vraag niet prettig vinden om te beantwoorden dan kan je deze altijd overslaan.
+                </p>
+            </section>
+            <section class="question">
+                <p>In de laatste maanden, hoe zwaar voelt het verlies?</p>
+                <div class="buttons">
+                    <button class="btn" data-step="1">Verpletterend</button>
+                    <button class="btn" data-step="1">Drukkend</button>
+                    <button class="btn" data-step="1">Zwaar</button>
+                    <button class="btn" data-step="1">Draaglijk</button>
+                    <button class="btn" data-step="1">Licht</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="on-intro">
+            <button class="btn btn-start" data-step="1">
+                <svg width="18" height="10" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.105 4.51c.246.242.25.638.008.884L13.17 9.405a.625.625 0 01-.892-.876l3.505-3.566-3.566-3.505a.625.625 0 11.877-.891l4.011 3.943zM1.34 5.713a.625.625 0 11-.01-1.25l.01 1.25zm15.332-.132L1.34 5.713l-.01-1.25 15.332-.132.01 1.25z"/></svg>
+            </button>
+            <button class="btn btn-back" data-step="-1">Terug</button>
+            <button class="btn btn-skip" data-step="1">Overslaan</button>
+        </footer>
+    </div>
+</body>
+</html>
