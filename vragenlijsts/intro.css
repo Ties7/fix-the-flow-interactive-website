@@ -195,3 +195,12 @@ button:hover {
         transform: translateY(0);
     }
 }
+
+
+.show {
+    display: flex;
+}
+
+section {
+    display: none;
+}
