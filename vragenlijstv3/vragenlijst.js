@@ -1,16 +1,15 @@
 //lees alles over queryselectorall op mdn, en wat een array en nodelist is
 
 
-//selecteer 'alle' sections en maakt daar een lijst van (nodelist)
-let questions = document.querySelectorAll('section')
-    console.log(questions)
-    console.log(questions.length)
-
+let questions = document.querySelectorAll('section') //selecteer 'alle' sections en maakt daar een lijst van (nodelist)
+    // console.log(questions)
+    // console.log(questions.length)
 let currentQuestion = 0 //maak variabele currentQuestion aan met als waarde 0
-//selecteer de class btn-skip
-let buttonNext = document.querySelector('.btn-skip')
-//nieuwe click event aanmaken die de functie next() aanroept
-buttonNext.addEventListener('click', next)
+let buttonNext = document.querySelector('.btn-skip') //selecteer de class btn-skip
+let buttonPrev = document.querySelector('.btn-back') //selecteer de class btn-back
+
+buttonNext.addEventListener('click', next) //nieuwe click event aanmaken die de functie next() aanroept
+buttonPrev.addEventListener('dlick', prev) //nieuwe click event aanmaken die de functie prev() aanroept
 
 
 function prev(){
