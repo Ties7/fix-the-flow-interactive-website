@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro</title>
+
+    <link rel="stylesheet" href="vragenlijst.css">
+    <script defer src="vragenlijst.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Vragenlijst</h1>
+            <a class="quit" href="#">
+                <img src="../assets/quit.svg" alt="afsluiten">
+            </a>
+        </header>
+
+        <div class="progress">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <main>
+            <section class="intro show vraag1">
+                <p>We stellen 12 vragen om een programma op maat voor je samen te stellen.</p>
+                <p class="disclaimer">
+                    *Mocht je een vraag niet prettig vinden om te beantwoorden dan kan je deze altijd overslaan.
+                </p>
+            </section>
+            <section class="question vraag2">
+                <p>In de laatste maanden, hoe zwaar voelt het verlies?</p>
+                <div class="buttons">
+                    <button class="btn">Verpletterend</button>
+                    <button class="btn">Drukkend</button>
+                    <button class="btn">Zwaar</button>
+                    <button class="btn">Draaglijk</button>
+                    <button class="btn">Licht</button>
+                </div>
+            </section>
+            <section class="question vraag3">
+                <p>vraag 3</p>
+                <p class="disclaimer">
+                    *Mocht je een vraag niet prettig vinden om te beantwoorden dan kan je deze altijd overslaan.
+                </p>
+            </section>
+            <section class="question vraag4">
+                <p>vraag 4</p>
+                <div class="buttons">
+                    <button class="btn">Verpletterend</button>
+                    <button class="btn">Drukkend</button>
+                    <button class="btn">Zwaar</button>
+                    <button class="btn">Draaglijk</button>
+                    <button class="btn">Licht</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <button class="btn btn-back">Terug</button>
+            <button class="btn btn-skip">Volgende</button>
+        </footer>
+    </div>
+</body>
+</html>

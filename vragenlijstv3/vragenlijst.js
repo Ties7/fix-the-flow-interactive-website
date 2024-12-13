@@ -1,0 +1,35 @@
+//lees alles over queryselectorall op mdn, en wat een array en nodelist is
+
+
+//selecteer 'alle' sections en maakt daar een lijst van (nodelist)
+let questions = document.querySelectorAll('section')
+    console.log(questions)
+    console.log(questions.length)
+
+let currentQuestion = 0 //maak variabele currentQuestion aan met als waarde 0
+//selecteer de class btn-skip
+let buttonNext = document.querySelector('.btn-skip')
+//nieuwe click event aanmaken die de functie next() aanroept
+buttonNext.addEventListener('click', next)
+
+
+function prev(){
+
+}
+
+function next(){
+    // console.log('click')
+    // questions[0]
+    // console.log(currentQuestion)
+    // console.log(questions[currentQuestion])
+    questions[currentQuestion].classList.remove('show') //de section die op dit moment zichtbaar is de class show bij weghalen als functie next word uitgevoerd
+    currentQuestion = currentQuestion + 1 //de variabele currentquestion ophogen om iets met de volgende section te kunnen doen
+    // console.log(currentQuestion)
+    // console.log(questions[currentQuestion])
+    if(currentQuestion < questions.length){ //als section die op dit moment zichbaar is kleiner is dan de lengte van de aantal sections, wordt dit uitgevoerd. Dan krijgt de section + 1 de class show, dus de volgende section
+        questions[currentQuestion].classList.add('show')
+    }
+    if(currentQuestion == questions.length -1){ //als de section gelijk is aan de hoeveelheid sections die er zijn -1 word dit uitgevoerd. dan krijgt de nextbutton de class hide wat hem weghaald.
+        buttonNext.classList.add('hide')
+    }
+}

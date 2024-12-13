@@ -7,7 +7,7 @@ const progressBars = document.querySelectorAll('.progress > div');
 // Maak variabele 'step' aan.
 let step = 0;
 
-// Maak een functie met 'offset' als argument
+// Maak een functie met 'offset'
 function nextStep(offset) {
     // Maak de huidige section onzichtbaar
     sections[step]?.classList.remove('show');
@@ -31,10 +31,12 @@ window.addEventListener('click', function (event) {
     const button = event.target.closest('[data-step]');
     if(!button) return;
 
+    // 
     const step = parseInt(button.dataset.step);
-    nextStep(step);
+    nextStep(step); // "1" wordt 1 als je hem parst
 });
 
+// Zorgt dat eerste pagina zichtbaar is, offset = 0
 nextStep(0);
 
 
