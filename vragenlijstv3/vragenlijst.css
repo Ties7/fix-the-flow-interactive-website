@@ -148,6 +148,10 @@ footer {
     transition: all .15s ease;
 }
 
+.btn-skip {
+
+}
+
 .btn:hover {
     color: #000;
     background-color: #fff;
