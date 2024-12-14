@@ -130,7 +130,6 @@ section.question {
 
 /* Footer */
 footer {
-    display: flex;
     justify-content: space-between;
 }
 
@@ -148,8 +147,12 @@ footer {
     transition: all .15s ease;
 }
 
-.btn-skip {
+.btn-back {
+    float: left;
+}
 
+.btn-skip {
+    float: right;
 }
 
 .btn:hover {
