@@ -11,6 +11,9 @@ let buttonPrev = document.querySelector('.btn-back') //selecteer de class btn-ba
 buttonNext.addEventListener('click', next) //nieuwe click event aanmaken die de functie next() aanroept
 buttonPrev.addEventListener('click', prev) //nieuwe click event aanmaken die de functie prev() aanroept
 
+if (currentQuestion === 0) { // Verberg buttonPrev bij het laden van de pagina.
+    buttonPrev.classList.add('hide');
+}
 
 function prev(){
     questions[currentQuestion].classList.remove('show') //de section die op dit moment zichtbaar is de class show bij weghalen als functie next word uitgevoerd
@@ -22,7 +25,7 @@ function prev(){
     if(currentQuestion == 0){ //als de section gelijk is aan de 0ste (dus eerste) section word dit uitgevoerd. dan krijgt de prevbutton de class hide wat hem weghaald.
         buttonPrev.classList.add('hide')
     }
-    if (currentQuestion < questions.length - 1) { // Toon de 'volgende' knop als je niet op de laatste vraag bent
+    if (currentQuestion < questions.length - 1) { // Toon de buttonNext als je niet op de laatste vraag bent
         buttonNext.classList.remove('hide');
     }
 }
@@ -42,7 +45,8 @@ function next(){
     if(currentQuestion == questions.length -1){ //als de section gelijk is aan de hoeveelheid sections die er zijn -1 word dit uitgevoerd. dan krijgt de nextbutton de class hide wat hem weghaald.
         buttonNext.classList.add('hide')
     }
-    if (currentQuestion > 0) { // Toon de 'vorige' knop als je niet op de eerste vraag bent
+    if (currentQuestion > 0) { // Toon de buttonPrev als je niet op de eerste vraag bent
         buttonPrev.classList.remove('hide');
     }
 }
+
