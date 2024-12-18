@@ -168,10 +168,3 @@ footer {
 footer.on-intro {
     justify-content: center;
 }
-
-footer:not(.on-intro) > .btn-start,
-footer.on-intro > .btn-back,
-footer.on-intro > .btn-skip {
-    /* Hide some buttons based on .on-intro class */
-    display: none;
-}
