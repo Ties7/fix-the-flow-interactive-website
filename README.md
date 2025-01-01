@@ -14,5 +14,3 @@ Het enige is dat er op de eerste content van de pagina een andere knop zit dan o
 Ook als je over een button hovered is hetzelfde gebleven:
 
 ![image](https://github.com/user-attachments/assets/3820454d-0048-4702-b7a2-5465e11f6236)
-
-# Code
