@@ -11,7 +11,7 @@ Het enige is dat er op de eerste content van de pagina een andere knop zit dan o
 ![image](https://github.com/user-attachments/assets/2a5761ce-b1b7-4384-99cc-d84d26adced3)
 ![image](https://github.com/user-attachments/assets/cbfa962b-9e81-4939-8da8-daffe4454796)
 
-Ook als je over een button hovered is hetzelfde gebleven:
+Ook als je over een button hovered krijg je feedback. Dit is handig zodat de gebruiker weet wat er gebeurd.:
 
 ![image](https://github.com/user-attachments/assets/3820454d-0048-4702-b7a2-5465e11f6236)
 
