@@ -2,7 +2,7 @@
 Deze sprint ben ik aan de slag gegaan met het verbeteren van de vragenlijst. De vragenlijst bestond namelijk hiervoor uit meerdere html bestanden, waardoor het meer vermogen kostte om de website te laden. Deze sprint ben ik aan de slag gegaan met het maken van de vragenlijst op 1 html bestand. Je blijft dus nu op dezelfde pagina als je naar de volgende vraag gaat, de content veranderd alleen, daardoor hoeft er dus niet een hele nieuwe pagina ingeladen te worden.
 
 # De interactie
-De animaties en alles is hetzelfde gebleven als hiervoor:
+De animaties en alles is hetzelfde gebleven als hiervoor. Ik heb ervoor gekozen om de vragen waar je uit kan kiezen om en om in te laten faden, doordat het een soort rust uitstraald. Ook is dit een leuke referentie naar ademhaling wat vaker terug komt in deze webapp.:
 
 ![ezgif-1-f309477852 (1)](https://github.com/user-attachments/assets/83ae7ebe-19af-4538-b861-1c882ce48b57)
 
