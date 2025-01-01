@@ -14,3 +14,11 @@ Het enige is dat er op de eerste content van de pagina een andere knop zit dan o
 Ook als je over een button hovered is hetzelfde gebleven:
 
 ![image](https://github.com/user-attachments/assets/3820454d-0048-4702-b7a2-5465e11f6236)
+
+# Accessibility
+
+Ik heb ook kort de accessibility getest. uit de lighthouse test kwam 100%.
+![Schermopname (39)](https://github.com/user-attachments/assets/b0077792-690c-43f9-a456-a831d27b9c64)
+
+Daarnaast heb ik zelf getest of alles tabbaar is. En dat is allemaal in orde.
+![Schermopname (40)](https://github.com/user-attachments/assets/c8299f0b-7acb-40f9-8556-7888a113159c)
